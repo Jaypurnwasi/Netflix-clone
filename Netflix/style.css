@@ -144,7 +144,8 @@
     display: flex;
     gap: 1rem;
     color: white;
-    height: 450px;
+    /* height: 450px; */
+    padding: 3rem 0;
     align-items: center;
     justify-content: center;
     position: relative;
@@ -268,4 +269,22 @@
     color: white;
     padding: 0.5rem;
     /* border-bottom: 1px solid red; */
+}
+
+@media screen and (max-width:900px) {
+
+    .box{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-lists{
+        flex-direction: column;
+        gap: 3rem;
+    }
+    .footer-lists ul{
+        width: 100%;
+        text-align: center;
+    }
+   
+    
 }
